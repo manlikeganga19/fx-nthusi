@@ -26,7 +26,7 @@ const Signals = () => {
               <div
                 onClick={() => setItemName(name)}
                 className={`${
-                  name === itemName ? "bg-violet text-black" : "bg-white"
+                  name === itemName ? "bg-platinum text-black" : "bg-white"
                 } w-full rounded-2xl py-12 px-6 shadow-primary cursor-pointer transition duration-300`}
                 key={index}
               >
