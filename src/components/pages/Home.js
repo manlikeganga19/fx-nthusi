@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import NavMobile from "../Header/NavMobile";
 import Hero from "../Hero/Hero";
 import Stats from "../stats/stats";
+import Signals from "../Signals/Signals";
 
 const HomePage = () => {
   // mobile nav state change
@@ -29,7 +30,8 @@ const HomePage = () => {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <Hero />
-      <Stats/>
+      <Stats />
+      <Signals />
     </div>
   );
 };
