@@ -1,18 +1,18 @@
 export const navData = [
   {
     name: 'Trade signals',
-    href: '#',
+    href: '/signals',
   },
   {
     name: 'Bots',
-    href: '#',
+    href: '/bot',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/about',
   },
   {
     name: 'Resources',
-    href: '#',
+    href: '/resource',
   },
 ];
