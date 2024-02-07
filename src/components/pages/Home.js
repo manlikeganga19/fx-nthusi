@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import Header from "../Header/Header";
 import NavMobile from "../Header/NavMobile";
 import Hero from "../Hero/Hero";
+import Stats from "../stats/stats";
+
 const HomePage = () => {
   // mobile nav state change
   const [navMobile, setNavMobile] = useState(false);
@@ -26,7 +28,8 @@ const HomePage = () => {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
-      <Hero/>
+      <Hero />
+      <Stats/>
     </div>
   );
 };
